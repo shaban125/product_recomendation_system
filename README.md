@@ -14,7 +14,7 @@ This is a simple E-commerce Recommendation System built using Python. It recomme
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ecommerce-recommendation-system.git
+   git clone https://github.com/shaban125/product_recomendation_system
    ```
 
 2. **Go into the project folder**:
@@ -52,8 +52,13 @@ This is a simple E-commerce Recommendation System built using Python. It recomme
 ```
 ecommerce-recommendation-system/
 │
-├── main.py                     # Main script to run the project
-└── README.md                   # Project documentation
+├── customer.py                   # Customer class
+├── product.py                    # Product class
+├── recommendation_system.py      # Recommendation logic
+├── customer_data_handler.py      # File handling for customer data
+├── main.py                       # Main script
+└── README.md                     # Documentation
+n
 ```
 
 ## **Technologies Used**
